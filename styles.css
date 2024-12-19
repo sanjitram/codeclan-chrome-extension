@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.05); /* Light background */
+}
+
+.popup {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  color: antiquewhite;
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#create-room {
+  background-color: #06106f; /* Purple */
+}
+
+#join {
+  background-color: #2e7d32; /* Green */
+}
+#start-contest{
+
+  background-color: #2e7d32; /* Green */
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: black;
+}
+
+#room-id {
+  width: 160px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #000000; /* Light blue */
+  border: none;
+  color: antiquewhite;
+  border-radius: 5px;
+}
+
+#status {
+  color: antiquewhite;
+  background-color: #000000; /* Blue */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+}
