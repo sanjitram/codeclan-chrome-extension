@@ -5,10 +5,10 @@ button.textContent = "Challenge";
 
 Object.assign(button.style, {
   position: "fixed",
-  top: "10px",
-  right: "10px",
+  top: "15px",
+  right: "15px",
   backgroundColor: "blue",
-  zIndex: "9999",
+  zIndex: "100000",
   padding: "10px 20px",
   border: "none",
   borderRadius: "5px",
