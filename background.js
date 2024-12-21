@@ -1,6 +1,3 @@
-chrome.runtime.onInstalled.addListener(() => {
-  console.log("CODERCLAN extension installed");
-});
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === "notify") {
