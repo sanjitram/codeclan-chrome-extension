@@ -2,7 +2,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.05); /* Light background */
+  background-color: rgba(0, 0, 0, 0.05); 
 }
 
 .popup {
@@ -24,15 +24,15 @@ button {
 }
 
 #create-room {
-  background-color: #06106f; /* Purple */
+  background-color: #06106f; 
 }
 
 #join {
-  background-color: #2e7d32; /* Green */
+  background-color: #2e7d32; 
 }
 #start-contest{
 
-  background-color: #2e7d32; /* Green */
+  background-color: #fb00ff;; 
 }
 
 button:hover {
@@ -44,7 +44,7 @@ button:hover {
   width: 160px;
   padding: 10px;
   margin: 10px;
-  background-color: #000000; /* Light blue */
+  background-color: #000000; 
   border: none;
   color: antiquewhite;
   border-radius: 5px;
@@ -52,7 +52,7 @@ button:hover {
 
 #status {
   color: antiquewhite;
-  background-color: #000000; /* Blue */
+  background-color: #000000; 
   padding: 20px;
   margin-top: 20px;
   border-radius: 5px;
