@@ -1,21 +1,22 @@
-const challengeButton = document.createElement("button");
 
-challengeButton.textContent = "Challenge"; // Set button text
+const button = document.createElement("button");
 
-// Set styles using `style` property
-challengeButton.style.position = "fixed";
-challengeButton.style.top = "10px";
-challengeButton.style.right = "10px";
-challengeButton.style.backgroundColor = "blue";
-challengeButton.style.zIndex = "9999";
-challengeButton.style.padding = "10px 20px";
-challengeButton.style.border = "none";
-challengeButton.style.borderRadius = "5px";
+button.textContent = "Challenge";
 
-challengeButton.style.cursor = "pointer";
-challengeButton.style.fontSize = "14px";
-challengeButton.style.textAlign = "center";
-challengeButton.style.lineHeight = "normal";
+Object.assign(button.style, {
+  position: "fixed",
+  top: "10px",
+  right: "10px",
+  backgroundColor: "blue",
+  zIndex: "9999",
+  padding: "10px 20px",
+  border: "none",
+  borderRadius: "5px",
+  cursor: "pointer",
+  fontSize: "14px",
+  textAlign: "center",
+  lineHeight: "normal"
+});
 
-// Append the button to the body
-document.body.appendChild(challengeButton);
+
+document.body.appendChild(button);
